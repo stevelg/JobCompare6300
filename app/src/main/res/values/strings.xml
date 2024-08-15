@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">JobCompare6300</string>
+    <string name="cs6300_team0009_joffer">CS6300 Team0009 Joffer</string>
+    <string name="home_screen">Home Screen</string>
+    <string name="enter_edit_current_job">Enter/Edit Current Job</string>
+    <string name="enter_job_offers">Enter Job Offers</string>
+    <string name="adjust_comparison_settings">Adjust Comparison Settings</string>
+    <string name="compare_job_offers">Compare Job Offers</string>
+    <string name="location">Location</string>
+    <string name="company">Company</string>
+    <string name="title">Title</string>
+    <string name="cost_of_living">Cost of Living</string>
+    <string name="yearly_salary">Yearly Salary</string>
+    <string name="yearly_bonus">Yearly Bonus</string>
+    <string name="restricted_stock_unit">Restricted Stock Unit Award</string>
+    <string name="relocation_stipend">Relocation Stipend</string>
+    <string name="personal_holidays">Personal Choice Holidays</string>
+    <string name="adjust_comparison_weights">Adjust Comparison Weights</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="new_comparison">New Comparison</string>
+    <string name="compare">Compare</string>
+    <string name="offer_2">Offer 2</string>
+    <string name="offer_1">Offer 1</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_neutral30"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/btnCurrentJob"
+            android:layout_width="320dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-black"
+            android:onClick="handleCurrentJobClick"
+            android:text="@string/enter_edit_current_job"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnJobOffer"
+            android:layout_width="320dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-black"
+            android:onClick="handleJobOffersClick"
+            android:text="@string/enter_job_offers"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnComparisonWeights"
+            android:layout_width="320dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-black"
+            android:onClick="handleComparisonSettingsClick"
+            android:text="@string/adjust_comparison_settings"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnCompareJobs"
+            android:layout_width="320dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-black"
+            android:onClick="handleCompareJobsClick"
+            android:text="@string/compare_job_offers"
+            android:textSize="16sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

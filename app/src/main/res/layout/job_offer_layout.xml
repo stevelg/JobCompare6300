@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_neutral30">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/TextEnterJobOfferID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/enter_job_offers"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#2962FF"
+            android:padding="10dp"
+            android:stretchColumns="1">
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:padding="10sp"
+                    android:text="@string/title"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/editOfferTitle"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_margin="5dp"
+                    android:background="@color/white"
+                    android:inputType="text"
+                    android:textColor="@color/black" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:padding="10sp"
+                    android:text="@string/company"
+                    android:textColor="@color/white"
+                    android:textAlignment="viewEnd"
+                    android:textSize="16sp" />
+                <EditText
+                    android:id="@+id/editOfferCompany"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_column="1"
+                    android:background="@color/white"
+                    android:inputType="text"
+                    android:textColor="@color/black" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:padding="10sp"
+                    android:text="@string/location"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+                <EditText
+                    android:id="@+id/editOfferLocation"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_column="1"
+                    android:background="@color/white"
+                    android:inputType="text"
+                    android:textColor="@color/black" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:padding="10sp"
+                    android:text="@string/cost_of_living"
+                    android:textColor="@color/white"
+                    android:textAlignment="viewEnd"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/editOfferLivingCost"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_column="1"
+                    android:background="@color/white"
+                    android:inputType="text"
+                    android:textColor="@color/black" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:padding="10sp"
+                    android:text="@string/yearly_salary"
+                    android:textColor="@color/white"
+                    android:textAlignment="viewEnd"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/editOfferYearlySalary"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_column="1"
+                    android:background="@color/white"
+                    android:inputType="text"
+                    android:textColor="@color/black" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:padding="10sp"
+                    android:text="@string/yearly_bonus"
+                    android:textColor="@color/white"
+                    android:textAlignment="viewEnd"
+                    android:textSize="16sp" />
+                <EditText
+                    android:id="@+id/editOfferYearlyBonus"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_column="1"
+                    android:background="@color/white"
+                    android:inputType="text"
+                    android:textColor="@color/black" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:padding="10sp"
+                    android:text="@string/restricted_stock_unit"
+                    android:textColor="@color/white"
+                    android:textAlignment="viewEnd"
+                    android:textSize="16sp" />
+                <EditText
+                    android:id="@+id/editOfferRSU"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_column="1"
+                    android:background="@color/white"
+                    android:inputType="text"
+                    android:textColor="@color/black" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:padding="10sp"
+                    android:text="@string/relocation_stipend"
+                    android:textColor="@color/white"
+                    android:textAlignment="viewEnd"
+                    android:textSize="16sp" />
+                <EditText
+                    android:id="@+id/editOfferRelocation"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_column="1"
+                    android:background="@color/white"
+                    android:inputType="text"
+                    android:textColor="@color/black" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:padding="10sp"
+                    android:text="@string/personal_holidays"
+                    android:textColor="@color/white"
+                    android:textAlignment="viewEnd"
+                    android:textSize="16sp" />
+                <EditText
+                    android:id="@+id/editOfferHolidays"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_column="1"
+                    android:background="@color/white"
+                    android:inputType="text"
+                    android:textColor="@color/black" />
+            </TableRow>
+        </TableLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnOfferSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="handleSaveClick"
+                android:text="@string/save" />
+
+            <Button
+                android:id="@+id/btnOfferCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="handleCancelClick"
+                android:text="@string/cancel" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnNewOffer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="handleNewOfferClick"
+                android:text="New Offer" />
+
+            <Button
+                android:id="@+id/btnOfferCompare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="handleCompareClick"
+                android:text="Compare    " />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
